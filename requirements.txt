@@ -1,0 +1,7 @@
+torch
+espnet==0.9.2
+parallel_wavegan==0.4.6
+chainer
+simpleaudio
+
+#future, numpy, torch, kaldiio, scipy, unidecode, joblib, regex, tqdm, nltk, distance, inflect, g2p-en, pypinyin, jaconv, espnet-tts-frontend, bottleneck, pycparser, cffi, soundfile, nara-wpe, tensorboardX, filelock, gdown, python-dateutil, pytz, pandas, attrs, pyrsistent, jsonschema, simplejson, stempeg, pyaml, musdb, museval, h5py, cython, pyworld, pystoi, absl-py, cachetools, pyasn1, rsa, pyasn1-modules, google-auth, oauthlib, requests-oauthlib, google-auth-oauthlib, grpcio, tensorboard-plugin-wit, markdown, wheel, tensorboard, editdistance, typeguard, mir-eval, cycler, kiwisolver, pyparsing, matplotlib, pillow, humanfriendly, sentencepiece, audioread, threadpoolctl, scikit-learn, decorator, llvmlite, numba, resampy, appdirs, packaging, pooch, librosa, morfessor, fastdtw, configargparse, espnet-model-zoo, dataclasses, pysptk, sklearn, nnmnkwii, torch-complex, pytorch-wpe, espnet, argcomplete, yq, parallel-wavegan, PySocks
