@@ -58,11 +58,21 @@ class TTS_Worker:
 
 if __name__ == '__main__':
     #Test user input
-    worker = TTS_Worker(1, 'audio/', '.wav')
+    worker1 = TTS_Worker(1, 'audio/', '.wav')
+    worker2 = TTS_Worker(2, 'audio/', '.wav')
+
+    """
+    print(f'Worker 1 : {worker1}')
+    print(f'Worker 2 : {worker2}')
+    print(f'Worker 1 tts : {worker1.text2speech}')
+    print(f'Worker 2 tts : {worker2.text2speech}')
+    """
+
+    #"""
     print(f"Input your favorite sentence.")
     x = input()
     start = time.time()
-    worker.process_text(x, 'test')
+    worker1.process_text(x, 'test')
     rtf = (time.time() - start)
     print(f"RTF = {rtf:5f}")
-
+    #"""
